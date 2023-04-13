@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@tryabby/next': ^2.4.1
+  '@tryabby/next': ^2.4.3
   '@types/js-cookie': ^3.0.3
   '@types/node': ^17.0.45
   '@types/react': ^18.0.28
@@ -19,7 +19,7 @@ specifiers:
   typescript: ^4.9.5
 
 dependencies:
-  '@tryabby/next': 2.4.1_ld2jel3hspngo3u5lti2kgl2sq
+  '@tryabby/next': 2.4.3_ld2jel3hspngo3u5lti2kgl2sq
   '@vercel/examples-ui': 1.0.5_ld2jel3hspngo3u5lti2kgl2sq
   js-cookie: 3.0.1
   next: 13.2.4_biqbaboplfbrettd7655fr4n2y
@@ -274,20 +274,20 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@tryabby/core/2.1.1:
-    resolution: {integrity: sha512-4njwokam6whBX6QZVMCN4loaaT+scUwPTgyDbr/SRkFNiOoHKM3wbTP0PItp2Mdy/3cGLb5GmY7m93za+ap3Jg==}
+  /@tryabby/core/2.1.2:
+    resolution: {integrity: sha512-pmxiR/EOp4BtJkU3KHhjTuPGp8dKgM6TDJQKuQRpP8jQPcvCJD/zY1wRSkOVcPrxF5wuRIh7P87lt1XuDMGNaA==}
     dependencies:
       ts-toolbelt: 9.6.0
     dev: false
 
-  /@tryabby/next/2.4.1_ld2jel3hspngo3u5lti2kgl2sq:
-    resolution: {integrity: sha512-i/8mr+6N6phM8YXTP5se1CpZyvN02CgR1DeObk0JJEqLBdOqiGtuHWzFz6IGpc0wuovJ9fvJ6jK2xOjf4YALeg==}
+  /@tryabby/next/2.4.3_ld2jel3hspngo3u5lti2kgl2sq:
+    resolution: {integrity: sha512-nWFMngHs04aQEdBAwY9ql/YyB+e7YnkKAV5vbDe9NYkH/vGFMO3xuiWrNFagj0dtkvdY7jYPPpMJV5NXPzO9mg==}
     peerDependencies:
       next: '>=12.0.0'
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
-      '@tryabby/react': 2.3.1_biqbaboplfbrettd7655fr4n2y
+      '@tryabby/react': 2.3.3_biqbaboplfbrettd7655fr4n2y
       js-cookie: 3.0.1
       next: 13.2.4_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
@@ -295,13 +295,13 @@ packages:
       ts-toolbelt: 9.6.0
     dev: false
 
-  /@tryabby/react/2.3.1_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-2DlRvL+LfrUETW3fXwuWvp+uE8hr/IEKthZR37YdSVtbilxpyNzBIey5iPO9BjG+V2w0UJmsLun2RdgHoB0elA==}
+  /@tryabby/react/2.3.3_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-C2JrEeaXaXEn4DSPT+v5sDPala8v+0nxAxXiJUdmjzxilH2pbjpsHSluRFWPR3ovhmyyAi0CtQsrMexua/uggQ==}
     peerDependencies:
       react: ^18.2.0
       react-dom: 18.2.0
     dependencies:
-      '@tryabby/core': 2.1.1
+      '@tryabby/core': 2.1.2
       js-cookie: 3.0.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
