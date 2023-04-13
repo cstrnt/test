@@ -1,6 +1,6 @@
 ---
-name: A/B Testing Simple
-slug: ab-testing-simple
+name: A/B Testing using A/BBY
+slug: abby-ab-testing
 description: By A/B testing at the edge, you'll reduce CLS from client-loaded experiments and improve your site's performance with smaller JS bundles.
 framework: Next.js
 useCase:
