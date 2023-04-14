@@ -1,9 +1,9 @@
-import { Job, Pipeline } from "https://deno.land/x/cicada/lib.ts";
+import { Job, Pipeline } from "https://deno.land/x/cicada@v0.1.32/lib.ts";
 import packageJson from "../package.json" assert { type: "json" };
 
 const packageManager = packageJson.packageManager.split("@")[0];
 
-const NODE_MATRIX = [14, 16, 18];
+const NODE_MATRIX = [14, 16];
 
 const jobs = NODE_MATRIX.map(
   (nodeVersion) =>
@@ -18,6 +18,7 @@ const jobs = NODE_MATRIX.map(
         {
           name: "Build Project",
           run: `pnpm ${packageJson.scripts.build}`,
+          cacheDirectories: [".next/cache"],
         },
       ],
     })
