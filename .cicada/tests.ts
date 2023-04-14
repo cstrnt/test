@@ -3,7 +3,7 @@ import packageJson from "../package.json" assert { type: "json" };
 
 const packageManager = packageJson.packageManager.split("@")[0];
 
-const NODE_MATRIX = [14, 16];
+const NODE_MATRIX = [16];
 
 const jobs = NODE_MATRIX.map(
   (nodeVersion) =>
