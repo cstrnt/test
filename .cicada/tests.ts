@@ -1,6 +1,8 @@
 import { Job, Pipeline } from "https://deno.land/x/cicada/lib.ts";
 import packageJson from "../package.json" assert { type: "json" };
 
+const packageManager = packageJson.packageManager.split("@")[0];
+
 const NODE_MATRIX = [14, 16, 18];
 
 const jobs = NODE_MATRIX.map(
@@ -11,7 +13,7 @@ const jobs = NODE_MATRIX.map(
       steps: [
         {
           name: "Install dependencies",
-          run: `npm i -g ${packageJson.packageManager} && pnpm i`,
+          run: `npm i -g ${packageJson.packageManager} && ${packageManager} i`,
         },
         {
           name: "Build Project",
